@@ -14,7 +14,7 @@ massa_valous = [1000, 1, 0.001, 0.000001]
 massa_symbols = ["t", "kg", "g", "mg"]
 
 while True:
-    choices[0] = ConversorFuncoes.Menu1()
+    choices[0] = functions.Menu1()
 
 #Sair:
     if choices[0] == 0:
@@ -25,16 +25,16 @@ while True:
 #Distancia:
     elif choices[0] == 1:
         while True:
-            choices[1] = ConversorFuncoes.Menu2()
+            choices[1] = functions.Menu2()
             if choices[1] == 0:
                 break
             else:
                 try:
                     unit = int(input("Sistema: Qual O Valor Dessa Unidade?: "))
-                    ConversorFuncoes.Limpar_Terminal()
+                    functions.Limpar_Terminal()
                 except:
                     print("Sistema: 3RR0R! \n")
-            choices[2] = ConversorFuncoes.Menu3()
+            choices[2] = functions.Menu3()
             if choices[2] == 0:
                 pass
             else:
@@ -55,16 +55,16 @@ while True:
 #Area:
     elif choices[0] == 2:
         while True:
-            choices[1] = ConversorFuncoes.Menu2()
+            choices[1] = functions.Menu2()
             if choices[1] == 0:
                 break
             else:
                 try:
                     unit = int(input("Sistema: Qual O Valor Dessa Unidade?: "))
-                    ConversorFuncoes.Limpar_Terminal()
+                    functions.Limpar_Terminal()
                 except:
                     print("Sistema: 3RR0R! \n")
-            choices[2] = ConversorFuncoes.Menu3()
+            choices[2] = functions.Menu3()
             if choices[2] == 0:
                 pass
             else:
@@ -85,16 +85,16 @@ while True:
 #Volume:
     elif choices[0] == 3:
         while True:
-            choices[1] = ConversorFuncoes.Menu4()
+            choices[1] = functions.Menu4()
             if choices[1] == 0:
                 break
             else:
                 try:
                     unit = int(input("Sistema: Qual O Valor Dessa Unidade?: "))
-                    ConversorFuncoes.Limpar_Terminal()
+                    functions.Limpar_Terminal()
                 except:
                     print("Sistema: 3RR0R! \n")
-            choices[2] = ConversorFuncoes.Menu5()
+            choices[2] = functions.Menu5()
             if choices[2] == 0:
                 pass
             else:
@@ -115,16 +115,16 @@ while True:
 #Informação:
     elif choices[0] == 4:
         while True:
-            choices[1] = ConversorFuncoes.Menu6()
+            choices[1] = functions.Menu6()
             if choices[1] == 0:
                 break
             else:
                 try:
                     unit = int(input("Sistema: Qual O Valor Dessa Unidade?: "))
-                    ConversorFuncoes.Limpar_Terminal()
+                    functions.Limpar_Terminal()
                 except:
                     print("Sistema: 3RR0R! \n")
-            choices[2] = ConversorFuncoes.Menu7()
+            choices[2] = functions.Menu7()
             if choices[2] == 0:
                 pass
             else:
@@ -145,16 +145,16 @@ while True:
 #Massa:
     elif choices[0] == 5:
         while True:
-            choices[1] = ConversorFuncoes.Menu8()
+            choices[1] = functions.Menu8()
             if choices[1] == 0:
                 break
             else:
                 try:
                     unit = int(input("Sistema: Qual O Valor Dessa Unidade?: "))
-                    ConversorFuncoes.Limpar_Terminal()
+                    functions.Limpar_Terminal()
                 except:
                     print("Sistema: 3RR0R! \n")
-            choices[2] = ConversorFuncoes.Menu9()
+            choices[2] = functions.Menu9()
             if choices[2] == 0:
                 pass
             else:
